@@ -3,6 +3,7 @@ import { Routes , Route} from 'react-router-dom';
 import Login from './pages/Login';
 import Home from './pages/Home';
 import SignUp from './pages/SignUp';
+import EmailVerificationPage from "./pages/EmailVerificationPage";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/verify-email" element={<EmailVerificationPage />} />
       
     </Routes>
 

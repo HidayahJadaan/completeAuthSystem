@@ -7,7 +7,7 @@ const PasswordCriteria = ({ password }) => {
 		{ label: "Contains lowercase letter", met: /[a-z]/.test(password) },
 		{ label: "Contains a number", met: /\d/.test(password) },
 		{ label: "Contains special character", met: /[^A-Za-z0-9]/.test(password) },
-	];
+	]; 
 
 	return (
 		<div className='mt-2 space-y-1'>
